@@ -1,0 +1,43 @@
+.body{
+background-color:#ffef99;
+}
+#image{
+  text-align:center;
+  width:350px;
+  height:370px;
+}
+h1{
+text-align:center;
+}
+* {
+  box-sizing: border-box;
+}
+#img-caption{
+font-size:19px;
+}
+
+
+#img-caption {
+  width: 400px;
+}
+#tribute-link{
+
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  margin-left: 7vw;
+}
+
+
+@media only screen and (max-width: 800px) 
+{
+  #image {
+    width: 85vw;
+  }
+}
