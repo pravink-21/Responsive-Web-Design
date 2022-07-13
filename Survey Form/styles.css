@@ -1,0 +1,38 @@
+body {
+        font-family: sans-serif;
+        padding-left: 20%;
+        padding-right: 20%;
+        background-image:url('https://wallpaperaccess.com/full/1884497.jpg');
+        background-repeat:no-repeat;
+  
+      }
+      label {
+        font-size: 18px;
+        display: block;
+        padding-bottom: 10px;
+      }
+      input, textarea, select {
+        display: block;
+        width: 100%;
+        padding-bottom: 20px;
+      }
+
+      form {
+        background-color: rgba(30,30,30,0.77);
+        padding: 40px 40px 40px 40px;
+        color:white;
+        border-radius: 90px;
+      }
+
+      #button-area {
+        float: left;
+        width: 50%;
+        height: 50%;
+      }
+
+      input[type=checkbox]:not(old) + label,
+      input[type=radio   ]:not(old) + label {
+        display      : inline-block;
+        margin-left  : -28px;
+        padding-left : 28px;
+      }
